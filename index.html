@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Untitled UI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://placehold.co/32x32/7F56D9/FFFFFF?text=UI" alt="Logo">
+                <span>Untitled UI</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-secondary">Log in</button>
+                <button class="btn btn-primary">Sign up</button>
+            </div>
+            <div class="mobile-menu-button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="#344054" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section class="section-container about-section">
+            <p class="section-tag">About us</p>
+            <h1 class="section-title">About the company</h1>
+            <p class="section-subtitle">Learn more about the company and the team behind it.</p>
+        </section>
+
+        <!-- Journey Section -->
+        <section class="section-container journey-section">
+            <div class="journey-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" alt="Office desk setup">
+            </div>
+            <div class="journey-content">
+                <p class="section-tag">We've helped hundreds of companies</p>
+                <h2 class="section-title-small">We're only just getting started on our journey</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>400+</h3>
+                        <p>Projects completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>600%</h3>
+                        <p>Return on investment</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10k</h3>
+                        <p>Global downloads</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>5-star reviews</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Logos Section -->
+        <section class="section-container logos-section">
+            <p>From startups to the world’s largest companies</p>
+            <div class="logos-grid">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/800px-Google_2015_logo.svg.png" alt="Layers Logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt="Sisyphus Logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png" alt="Circooles Logo">
+                <img src="data:image/png;base64,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" alt="Catalog Logo">
+                <img src="https://bbdu.ac.in/wp-content/uploads/2021/11/tata-steel-logo.png" alt="Quotient Logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpymbrGwv5tWSJkvrVCenaH7pfQPLYTYQSNsVRaY0JNp1lGQqcbGM72e15erphsdvvy0&usqp=CAU" alt="Hourglass Logo">
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="section-container team-section">
+             <p class="section-tag">We're hiring!</p>
+             <h2 class="section-title-small">Meet our team</h2>
+             <p class="section-subtitle">Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.</p>
+             <div class="team-actions">
+                <button class="btn btn-secondary">About us</button>
+                <button class="btn btn-primary">Open positions</button>
+             </div>
+             <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?q=80&w=2098&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team member photo">
+                    <h4>Amelia Chen</h4>
+                    <p class="role">Founder & CEO</p>
+                    <p class="bio">Former co-founder of Opendoor. Early staff at Spotify and Clearbit.</p>
+                    <div class="social-links">
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.9999 5.05005C22.2889 5.37205 21.5299 5.58905 20.7399 5.69105C21.5549 5.20405 22.1869 4.42005 22.4999 3.49005C21.7299 3.94405 20.8899 4.28105 19.9999 4.49005C19.2679 3.70005 18.2219 3.22005 17.0799 3.22005C14.8899 3.22005 13.0999 5.01005 13.0999 7.20005C13.0999 7.51005 13.1299 7.82005 13.1999 8.12005C9.8899 7.96005 6.9699 6.43005 4.8999 4.14005C4.5599 4.73005 4.3699 5.41005 4.3699 6.14005C4.3699 7.54005 5.0999 8.78005 6.1999 9.53005C5.5399 9.51005 4.9299 9.33005 4.3999 9.04005V9.10005C4.3999 11.0301 5.8199 12.6301 7.6499 13.0101C7.3199 13.1001 6.9799 13.1501 6.6299 13.1501C6.3799 13.1501 6.1399 13.1301 5.8999 13.0801C6.4199 14.6501 7.9199 15.7801 9.7199 15.8101C8.3099 16.8901 6.5599 17.5401 4.6799 17.5401C4.3599 17.5401 4.0499 17.5201 3.7399 17.4801C5.5599 18.6801 7.7499 19.4001 10.1199 19.4001C17.0699 19.4001 21.0699 13.6701 21.0699 8.62005C21.0699 8.44005 21.0699 8.26005 21.0599 8.08005C21.7999 7.55005 22.4599 6.86005 22.9999 5.05005Z" fill="#98A2B3"/></svg></a>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21V15.3C20 13.4 19.4 12.2 17.9 12.2C16.6 12.2 15.8 13.1 15.5 13.9C15.4 14.2 15.4 14.6 15.4 15V21H12V10H15.4V11.4C15.4 11.4 16.3 10.1 18.5 10.1C20.6 10.1 23 11.5 23 14.7V21H20ZM5 21H8V10H5V21ZM6.5 8.5C5.1 8.5 4 7.4 4 6C4 4.6 5.1 3.5 6.5 3.5C7.9 3.5 9 4.6 9 6C9 7.4 7.9 8.5 6.5 8.5Z" fill="#98A2B3"/></svg></a>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=256&h=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team member photo">
+                    <h4>Ben Carter</h4>
+                    <p class="role">Engineering Manager</p>
+                    <p class="bio">Lead engineering teams at Figma, Pitch, and Protocol Labs.</p>
+                     <div class="social-links">
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.9999 5.05005C22.2889 5.37205 21.5299 5.58905 20.7399 5.69105C21.5549 5.20405 22.1869 4.42005 22.4999 3.49005C21.7299 3.94405 20.8899 4.28105 19.9999 4.49005C19.2679 3.70005 18.2219 3.22005 17.0799 3.22005C14.8899 3.22005 13.0999 5.01005 13.0999 7.20005C13.0999 7.51005 13.1299 7.82005 13.1999 8.12005C9.8899 7.96005 6.9699 6.43005 4.8999 4.14005C4.5599 4.73005 4.3699 5.41005 4.3699 6.14005C4.3699 7.54005 5.0999 8.78005 6.1999 9.53005C5.5399 9.51005 4.9299 9.33005 4.3999 9.04005V9.10005C4.3999 11.0301 5.8199 12.6301 7.6499 13.0101C7.3199 13.1001 6.9799 13.1501 6.6299 13.1501C6.3799 13.1501 6.1399 13.1301 5.8999 13.0801C6.4199 14.6501 7.9199 15.7801 9.7199 15.8101C8.3099 16.8901 6.5599 17.5401 4.6799 17.5401C4.3599 17.5401 4.0499 17.5201 3.7399 17.4801C5.5599 18.6801 7.7499 19.4001 10.1199 19.4001C17.0699 19.4001 21.0699 13.6701 21.0699 8.62005C21.0699 8.44005 21.0699 8.26005 21.0599 8.08005C21.7999 7.55005 22.4599 6.86005 22.9999 5.05005Z" fill="#98A2B3"/></svg></a>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21V15.3C20 13.4 19.4 12.2 17.9 12.2C16.6 12.2 15.8 13.1 15.5 13.9C15.4 14.2 15.4 14.6 15.4 15V21H12V10H15.4V11.4C15.4 11.4 16.3 10.1 18.5 10.1C20.6 10.1 23 11.5 23 14.7V21H20ZM5 21H8V10H5V21ZM6.5 8.5C5.1 8.5 4 7.4 4 6C4 4.6 5.1 3.5 6.5 3.5C7.9 3.5 9 4.6 9 6C9 7.4 7.9 8.5 6.5 8.5Z" fill="#98A2B3"/></svg></a>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                 <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=256&h=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team member photo">
+                    <h4>Chloe Davis</h4>
+                    <p class="role">Product Manager</p>
+                    <p class="bio">Former PM for Linear, Lambda School, and On Deck.</p>
+                     <div class="social-links">
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.9999 5.05005C22.2889 5.37205 21.5299 5.58905 20.7399 5.69105C21.5549 5.20405 22.1869 4.42005 22.4999 3.49005C21.7299 3.94405 20.8899 4.28105 19.9999 4.49005C19.2679 3.70005 18.2219 3.22005 17.0799 3.22005C14.8899 3.22005 13.0999 5.01005 13.0999 7.20005C13.0999 7.51005 13.1299 7.82005 13.1999 8.12005C9.8899 7.96005 6.9699 6.43005 4.8999 4.14005C4.5599 4.73005 4.3699 5.41005 4.3699 6.14005C4.3699 7.54005 5.0999 8.78005 6.1999 9.53005C5.5399 9.51005 4.9299 9.33005 4.3999 9.04005V9.10005C4.3999 11.0301 5.8199 12.6301 7.6499 13.0101C7.3199 13.1001 6.9799 13.1501 6.6299 13.1501C6.3799 13.1501 6.1399 13.1301 5.8999 13.0801C6.4199 14.6501 7.9199 15.7801 9.7199 15.8101C8.3099 16.8901 6.5599 17.5401 4.6799 17.5401C4.3599 17.5401 4.0499 17.5201 3.7399 17.4801C5.5599 18.6801 7.7499 19.4001 10.1199 19.4001C17.0699 19.4001 21.0699 13.6701 21.0699 8.62005C21.0699 8.44005 21.0699 8.26005 21.0599 8.08005C21.7999 7.55005 22.4599 6.86005 22.9999 5.05005Z" fill="#98A2B3"/></svg></a>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21V15.3C20 13.4 19.4 12.2 17.9 12.2C16.6 12.2 15.8 13.1 15.5 13.9C15.4 14.2 15.4 14.6 15.4 15V21H12V10H15.4V11.4C15.4 11.4 16.3 10.1 18.5 10.1C20.6 10.1 23 11.5 23 14.7V21H20ZM5 21H8V10H5V21ZM6.5 8.5C5.1 8.5 4 7.4 4 6C4 4.6 5.1 3.5 6.5 3.5C7.9 3.5 9 4.6 9 6C9 7.4 7.9 8.5 6.5 8.5Z" fill="#98A2B3"/></svg></a>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                 <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=256&h=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team member photo">
+                    <h4>Leo Evans</h4>
+                    <p class="role">Frontend Developer</p>
+                    <p class="bio">Former frontend dev for Linear, Coinbase, and Postscript.</p>
+                     <div class="social-links">
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.9999 5.05005C22.2889 5.37205 21.5299 5.58905 20.7399 5.69105C21.5549 5.20405 22.1869 4.42005 22.4999 3.49005C21.7299 3.94405 20.8899 4.28105 19.9999 4.49005C19.2679 3.70005 18.2219 3.22005 17.0799 3.22005C14.8899 3.22005 13.0999 5.01005 13.0999 7.20005C13.0999 7.51005 13.1299 7.82005 13.1999 8.12005C9.8899 7.96005 6.9699 6.43005 4.8999 4.14005C4.5599 4.73005 4.3699 5.41005 4.3699 6.14005C4.3699 7.54005 5.0999 8.78005 6.1999 9.53005C5.5399 9.51005 4.9299 9.33005 4.3999 9.04005V9.10005C4.3999 11.0301 5.8199 12.6301 7.6499 13.0101C7.3199 13.1001 6.9799 13.1501 6.6299 13.1501C6.3799 13.1501 6.1399 13.1301 5.8999 13.0801C6.4199 14.6501 7.9199 15.7801 9.7199 15.8101C8.3099 16.8901 6.5599 17.5401 4.6799 17.5401C4.3599 17.5401 4.0499 17.5201 3.7399 17.4801C5.5599 18.6801 7.7499 19.4001 10.1199 19.4001C17.0699 19.4001 21.0699 13.6701 21.0699 8.62005C21.0699 8.44005 21.0699 8.26005 21.0599 8.08005C21.7999 7.55005 22.4599 6.86005 22.9999 5.05005Z" fill="#98A2B3"/></svg></a>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21V15.3C20 13.4 19.4 12.2 17.9 12.2C16.6 12.2 15.8 13.1 15.5 13.9C15.4 14.2 15.4 14.6 15.4 15V21H12V10H15.4V11.4C15.4 11.4 16.3 10.1 18.5 10.1C20.6 10.1 23 11.5 23 14.7V21H20ZM5 21H8V10H5V21ZM6.5 8.5C5.1 8.5 4 7.4 4 6C4 4.6 5.1 3.5 6.5 3.5C7.9 3.5 9 4.6 9 6C9 7.4 7.9 8.5 6.5 8.5Z" fill="#98A2B3"/></svg></a>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="section-container values-section">
+            <p class="section-tag">Our values</p>
+            <h2 class="section-title-small">How we work at Untitled</h2>
+            <p class="section-subtitle">Our shared values keep us connected and guide us as one team.</p>
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 21V19C22.9994 17.9831 22.5953 17.0114 21.8798 16.2909C21.1642 15.5704 20.195 15.1582 19.17 15.15" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 3.13C16.5035 3.63354 16.8661 4.26197 17.045 4.954C17.224 5.64603 17.2143 6.37622 17.0174 7.06691C16.8205 7.7576 16.4432 8.38448 15.9254 8.8899C15.4076 9.39533 14.7672 9.76149 14.06 9.95" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Care about our team</h4>
+                    <p>Understand what matters to our employees. Give them what they need to do their best work.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.8401 4.60999C20.3294 4.09911 19.7229 3.69353 19.0555 3.4168C18.388 3.14007 17.6726 2.99866 16.9501 2.99866C16.2276 2.99866 15.5122 3.14007 14.8447 3.4168C14.1773 3.69353 13.5708 4.09911 13.0601 4.60999L12.0001 5.66999L10.9401 4.60999C9.90843 3.57831 8.50915 2.99866 7.0501 2.99866C5.59105 2.99866 4.19177 3.57831 3.1601 4.60999C2.12843 5.64166 1.54878 7.04094 1.54878 8.49999C1.54878 9.95904 2.12843 11.3583 3.1601 12.39L12.0001 21.23L20.8401 12.39C21.8718 11.3583 22.4514 9.95904 22.4514 8.49999C22.4514 7.04094 21.8718 5.64166 20.8401 4.60999Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Be excellent to each other</h4>
+                    <p>No games. No bullshit. We rely on our peers to improve. Be open, honest and kind.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2L18 6L7 17H3V13L14 2Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 22H21" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Pride in what we do</h4>
+                    <p>Value quality and integrity in everything we do. At all times. No exceptions.</p>
+                </div>
+                 <div class="value-item">
+                    <div class="value-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 10L17.5 10" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 14L17.5 14" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 20V4C20 2.89543 19.1046 2 18 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 10L9.5 10" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 14L9.5 14" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Don't #!&S the customer</h4>
+                    <p>Understand customers' stated and unstated needs. Make them wildly successful.</p>
+                </div>
+                 <div class="value-item">
+                    <div class="value-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17 3L21 7L12 16L8 16L8 12L17 3Z" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 21H3" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Do the impossible</h4>
+                    <p>Be energized by difficult problems. Revel in unknowns. Ask, "Why?", but always question, "Why not?"</p>
+                </div>
+                 <div class="value-item">
+                    <div class="value-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L12 15" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 8L12 4L8 8" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12" stroke="#7F56D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h4>Sweat the small stuff</h4>
+                    <p>We believe the best products come from the best attention to detail. Sweat the small stuff.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Open Positions Section -->
+        <section class="section-container open-positions-section">
+            <p class="section-tag">We're hiring!</p>
+            <h2 class="section-title-small">We're looking for talented people</h2>
+            <p class="section-subtitle">We’re a 100% remote team spread all across the world. Join us!</p>
+            <div class="positions-image">
+                <img src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?q=80&w=2069&auto=format&fit=crop" alt="Team meeting">
+            </div>
+            <div class="department">
+                <h3>Design</h3>
+                <div class="job-listing">
+                    <div class="job-info">
+                        <h4>Product Designer</h4>
+                        <p>We’re looking for a mid-level product designer to join our team.</p>
+                    </div>
+                    <div class="job-details">
+                        <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 18.3333C14.6024 18.3333 18.3333 14.6024 18.3333 10C18.3333 5.39763 14.6024 1.66666 10 1.66666C5.39763 1.66666 1.66666 5.39763 1.66666 10C1.66666 14.6024 5.39763 18.3333 10 18.3333Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 5V10L13.3333 11.6667" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></svg> Full-time</span>
+                        <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10C11.3807 10 12.5 8.88071 12.5 7.5C12.5 6.11929 11.3807 5 10 5C8.61929 5 7.5 6.11929 7.5 7.5C7.5 8.88071 8.61929 10 10 10Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.6667 10C16.6667 13.6819 13.6819 16.6667 10 16.6667C6.3181 16.6667 3.33334 13.6819 3.33334 10C3.33334 6.3181 6.3181 3.33334 10 3.33334C10.5526 3.33334 11.0917 3.39167 11.6083 3.49917" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></svg> $80k - 100k</span>
+                    </div>
+                </div>
+                 <div class="job-listing">
+                    <div class="job-info">
+                        <h4>UX Designer</h4>
+                        <p>We’re looking for a mid-level UX designer to join our team.</p>
+                    </div>
+                    <div class="job-details">
+                        <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 18.3333C14.6024 18.3333 18.3333 14.6024 18.3333 10C18.3333 5.39763 14.6024 1.66666 10 1.66666C5.39763 1.66666 1.66666 5.39763 1.66666 10C1.66666 14.6024 5.39763 18.3333 10 18.3333Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 5V10L13.3333 11.6667" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></svg> Full-time</span>
+                        <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10C11.3807 10 12.5 8.88071 12.5 7.5C12.5 6.11929 11.3807 5 10 5C8.61929 5 7.5 6.11929 7.5 7.5C7.5 8.88071 8.61929 10 10 10Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.6667 10C16.6667 13.6819 13.6819 16.6667 10 16.6667C6.3181 16.6667 3.33334 13.6819 3.33334 10C3.33334 6.3181 6.3181 3.33334 10 3.33334C10.5526 3.33334 11.0917 3.39167 11.6083 3.49917" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></svg> $80k - 100k</span>
+                    </div>
+                </div>
+            </div>
+             <div class="department">
+                <h3>Software Development</h3>
+                <div class="job-listing">
+                    <div class="job-info">
+                        <h4>Engineering Manager</h4>
+                        <p>We’re looking for an experienced engineering manager to join our team.</p>
+                    </div>
+                    <div class="job-details">
+                        <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 18.3333C14.6024 18.3333 18.3333 14.6024 18.3333 10C18.3333 5.39763 14.6024 1.66666 10 1.66666C5.39763 1.66666 1.66666 5.39763 1.66666 10C1.66666 14.6024 5.39763 18.3333 10 18.3333Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 5V10L13.3333 11.6667" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></svg> Full-time</span>
+                        <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 10C11.3807 10 12.5 8.88071 12.5 7.5C12.5 6.11929 11.3807 5 10 5C8.61929 5 7.5 6.11929 7.5 7.5C7.5 8.88071 8.61929 10 10 10Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.6667 10C16.6667 13.6819 13.6819 16.6667 10 16.6667C6.3181 16.6667 3.33334 13.6819 3.33334 10C3.33334 6.3181 6.3181 3.33334 10 3.33334C10.5526 3.33334 11.0917 3.39167 11.6083 3.49917" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></svg> $120k - 140k</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA Section -->
+        <section class="section-container cta-section">
+            <h2>Start your 30-day free trial</h2>
+            <p>Join over 4,000+ startups already growing with Untitled.</p>
+            <div class="cta-actions">
+                <button class="btn btn-secondary">Learn more</button>
+                <button class="btn btn-primary">Get started</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                     <img src="https://placehold.co/32x32/7F56D9/FFFFFF?text=UI" alt="Logo">
+                     <span>Untitled UI</span>
+                </div>
+                <p>Design amazing digital experiences that create more happy in the world.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h5>Product</h5>
+                    <a href="#">Overview</a>
+                    <a href="#">Features</a>
+                    <a href="#">Solutions</a>
+                    <a href="#">Tutorials</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Releases</a>
+                </div>
+                <div class="link-column">
+                    <h5>Company</h5>
+                    <a href="#">About us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">News</a>
+                    <a href="#">Media kit</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="link-column">
+                    <h5>Resources</h5>
+                    <a href="#">Blog</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help centre</a>
+                    <a href="#">Tutorials</a>
+                    <a href="#">Support</a>
+                </div>
+                 <div class="link-column">
+                    <h5>Social</h5>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">AngelList</a>
+                    <a href="#">Dribbble</a>
+                </div>
+                 <div class="link-column">
+                    <h5>Legal</h5>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Licenses</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2077 Untitled UI. All rights reserved.</p>
+            <div class="social-icons">
+                 <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.9999 5.05005C22.2889 5.37205 21.5299 5.58905 20.7399 5.69105C21.5549 5.20405 22.1869 4.42005 22.4999 3.49005C21.7299 3.94405 20.8899 4.28105 19.9999 4.49005C19.2679 3.70005 18.2219 3.22005 17.0799 3.22005C14.8899 3.22005 13.0999 5.01005 13.0999 7.20005C13.0999 7.51005 13.1299 7.82005 13.1999 8.12005C9.8899 7.96005 6.9699 6.43005 4.8999 4.14005C4.5599 4.73005 4.3699 5.41005 4.3699 6.14005C4.3699 7.54005 5.0999 8.78005 6.1999 9.53005C5.5399 9.51005 4.9299 9.33005 4.3999 9.04005V9.10005C4.3999 11.0301 5.8199 12.6301 7.6499 13.0101C7.3199 13.1001 6.9799 13.1501 6.6299 13.1501C6.3799 13.1501 6.1399 13.1301 5.8999 13.0801C6.4199 14.6501 7.9199 15.7801 9.7199 15.8101C8.3099 16.8901 6.5599 17.5401 4.6799 17.5401C4.3599 17.5401 4.0499 17.5201 3.7399 17.4801C5.5599 18.6801 7.7499 19.4001 10.1199 19.4001C17.0699 19.4001 21.0699 13.6701 21.0699 8.62005C21.0699 8.44005 21.0699 8.26005 21.0599 8.08005C21.7999 7.55005 22.4599 6.86005 22.9999 5.05005Z" fill="#98A2B3"/></svg></a>
+                 <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21V15.3C20 13.4 19.4 12.2 17.9 12.2C16.6 12.2 15.8 13.1 15.5 13.9C15.4 14.2 15.4 14.6 15.4 15V21H12V10H15.4V11.4C15.4 11.4 16.3 10.1 18.5 10.1C20.6 10.1 23 11.5 23 14.7V21H20ZM5 21H8V10H5V21ZM6.5 8.5C5.1 8.5 4 7.4 4 6C4 4.6 5.1 3.5 6.5 3.5C7.9 3.5 9 4.6 9 6C9 7.4 7.9 8.5 6.5 8.5Z" fill="#98A2B3"/></svg></a>
+                 <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 2H6C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22H18C20.2091 22 22 20.2091 22 18V6C22 3.79086 20.2091 2 18 2Z" fill="#98A2B3"/><path d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z" fill="white"/><path d="M17.5 6.5C17.5 6.77614 17.2761 7 17 7C16.7239 7 16.5 6.77614 16.5 6.5C16.5 6.22386 16.7239 6 17 6C17.2761 6 17.5 6.22386 17.5 6.5Z" fill="white"/></svg></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
